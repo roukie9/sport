@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Liberation Sans";
+    src: url("./fonts/LiberationSans-Regular-webfont.ttf");
+}
+
+/* FULLHEADER */
+.header {
+    background-image: url("./images/background.jpg");
+}
+
+/* DIV QUI ENGLOBE LOGO ET NAV */
+.headerblock {
+    max-width: 1035px;
+}
+
+/* DIV LOGO ET SLOGAN */
+.headerlogo {
+    max-width: 350px;
+    font-family: "Liberation Sans";
+    color: #4c4c4c;
+}
+
+.sit-amet {
+    color: #e79c0c;
+}
+
+/* DIV USER + NAV */
+.headernav {
+    font-family: "Liberation Sans";
+    color: #4c4c4c;
+}
+
+/* DIV MENU NAN */
+.header a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.nav a:hover {
+    color: #e79c0c;
+}
+
+.body {
+    background-color: #1c1c1c;
+}
+
+/* CONTAINER PRINCIPAL BLANC */
+.main {
+    max-width: 1052px;
+}
+
+.colonne {
+    background-color: #f6f6f6;
+}
+
+.row {
+    max-width: 1052px;
+}
+
+.article {
+    position: relative;
+}
+
+/* NOM DES PRODUITS */
+figcaption {
+    position: relative;
+    bottom: 35px;
+    text-transform: uppercase;
+    font-family: "Liberation Sans";
+    font-size: 14px;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 4px 30px;
+}
+
+/* DIV BTN ET PRIX */
+.prices {
+    max-width: 366px;
+    position: relative;
+    bottom: 5rem;
+}
+
+.price1 {
+    text-decoration: line-through;
+}
+
+.price2 {
+    color: #e79c0c;
+}
+
+.badge {
+    position: relative;
+    bottom: 25rem; left: 9.5rem;
+    border-radius: 10px;
+    color: #e79c0c;
+}
+
+footer {
+    background-color: #373737;
+}
+
+/* CONTAINER NAV FOOTER BLANC */
+.footernav {
+    max-width: 430px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 5rem;
+}
+
+/* POINTS GRIS NAV FOOTER BLANC */
+.greydot {
+    width: 10px;
+    height: 10px;
+    background-color: #d1d1d1;
+    border-radius: 50px;
+}
+
+.footernav a {
+    text-decoration: none;
+    color: #373737;
+}
+
+.footernav a:hover {
+    color: #e79c0c;
+}
+
+.footertext {
+    font-size: 12px;
+}
+
+/* DIV RESEAUX SOCIAUX */
+.social {
+    max-width: 950px;
+    border-top: 3px solid #828282;
+}
